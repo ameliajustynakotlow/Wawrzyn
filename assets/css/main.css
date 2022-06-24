@@ -1,0 +1,195 @@
+@font-face {
+  font-family: bootstrap-icons;
+  src: url(../fonts/bootstrap-icons.woff2);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Noto Sans', sans-serif;
+  color: #1B1A17;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+p, a {
+  font-family: 'Jost', sans-serif;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 150%;
+  color: #2d322c;
+}
+
+a.btn, a.nav-link {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+small {
+  font-size: 0.75em;
+}
+
+.lead {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px #000000a1;
+}
+
+::selection {
+  background: #e9a01d;
+}
+
+.floor-plan-icon {
+  width: 25px;
+  height: 25px;
+  text-align: left;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+
+}
+
+.navbar {
+  transition: background 0.3s ease;
+}
+
+.navbar .nav a.nav-link {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.navbar.bg-none .nav a.nav-link {
+  text-shadow: 1px 1px #000000a1;
+}
+
+/* Navbar END */
+
+footer p, .text-grey {
+  color: #bcbcbc;
+}
+
+body {
+    background-color: #e4e4e0;
+}
+
+.bg-primary {
+    background-color: #1c231f !important;
+}
+
+.bg-none {
+  background: none;
+  background-color: unset !important;
+}
+
+.btn-primary {
+  background-color: #389844;
+  border-color: #ffffff54;
+}
+
+.btn-primary:hover {
+  background-color: #2d7637;
+  border-color: #4a9955;
+}
+
+.btn-secondary {
+  background-color: #e9a01d;
+  border-color: #ffffff40;
+}
+
+.btn-secondary:hover {
+  background-color: #c58819;
+  border-color: #ffffff40;
+}
+
+.link-no-color {
+  color: unset;
+  text-decoration: none;
+}
+
+.link-no-color:hover {
+  color: unset;
+  text-decoration: underline;
+}
+
+.highlight {
+  color: #389844;
+}
+
+.floor-plan-hover:hover {
+  cursor: pointer;
+}
+
+.house-svg-wrapper {
+  margin: 0 auto;
+  max-height: 300px;
+  display: block;
+  opacity: 100;
+  transition: opacity .3s ease;
+}
+
+.hide-svg {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.img-aspect-wide {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+#home {
+  padding-top: calc(3rem + 72px) !important;
+  background: rgba(0, 0, 0, 0.25) url('../images/camping-entrance.webp');
+/*  background-image: url('../images/camping-entrance.webp');
+*/  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+   background-blend-mode: darken;
+}
+
+.floor-plan-info > div.col {
+  padding-left: 0;
+}
+
+.floor-plan-info h5 {
+  font-size: 1rem;
+}
+
+.attractions > div.col > a {
+  text-decoration: none;
+}
+
+.attractions > div.col > a:hover > h3 {
+  text-decoration: underline;
+  color: #1B1A17;
+}
+
+.attractions > div.col > a > p {
+  font-size: 1rem;
+}
+
+.gx-6 {
+    --bs-gutter-x: 6rem;
+}
+
+/* Owl carousel slider */
+@media screen and (max-width: 767px) {
+  .owl-carousel .item > img {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .owl-carousel .item > img {
+    height: 400px;
+  }
+}
