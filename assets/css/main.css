@@ -70,6 +70,11 @@ small {
   text-shadow: 1px 1px #000000a1;
 }
 
+#toggle-menu {
+  font-size: 1.5rem;
+  padding: 0 7px;
+}
+
 /* Navbar END */
 
 footer p, .text-grey {
@@ -149,11 +154,10 @@ body {
 #home {
   padding-top: calc(3rem + 72px) !important;
   background: rgba(0, 0, 0, 0.25) url('../images/camping-entrance.webp');
-/*  background-image: url('../images/camping-entrance.webp');
-*/  background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-   background-blend-mode: darken;
+  background-blend-mode: darken;
 }
 
 .floor-plan-info > div.col {
@@ -193,3 +197,41 @@ body {
     height: 400px;
   }
 }
+
+/* Mobile */
+.mobile-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  background-color: #1c231f;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.mobile-link {
+  font-size: 1.25rem;
+  color: white;
+  padding: 1rem;
+}
+
+.mobile-link:hover {
+  color: #e9a01d;
+}
+
+@media screen and (max-width: 425px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }  
+}
+
+@media screen and (max-width: 355px) {
+  .navbar-brand {
+    font-size: 0.85rem;
+  }  
+}
+

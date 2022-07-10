@@ -22,3 +22,4 @@
 .bi-telephone-fill::before { content: "\f5b4"; }
 .bi-brightness-alt-high-fill::before { content: "\f1cd"; }
 .bi-tree-fill::before { content: "\f5e1"; }
+.bi-list::before { content: "\f479"; }
